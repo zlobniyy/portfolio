@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(241, 241, 241);
+}
+
+body {
+    background-color: grey;
+}
+.container {
+    width: 75%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: black;
+}
+
+.header {
+    height: auto;
+    padding: 15px;
+}
+
+.menu {
+    padding: 10px;
+
+}
+
+.nav {
+    border-color: green;
+    float: inline-end;
+}
+
+.nav .inline_menu li {
+    margin: 0 10px;;
+}
+
+.inline_menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contacts {
+    border-color: red;
+    float: right;
+}
+
+.inline_menu li img {
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+}
+
+.name {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.data  {
+    height: 70%;
+}
+
+.data > div {
+    display: inline-flex;
+}
+
+.scroll_back, .scroll_fwd {
+    width: 3%;
+    height: 100%;
+}
+
+.scroll_back img, .scroll_fwd img {
+    width: 100%;
+    opacity: .5;
+}
+
+.scroll_back img:hover, .scroll_fwd img:hover {
+    opacity: .8;
+}
+
+.scroll_gall {
+    width: 92%;
+}
+.scroll_gall img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.footer {
+    height: auto;
+    padding: 5px;
+    padding-left: 29%;
+}
+
+
+/* .bg-yellow {
+    background-color: rgb(201, 194, 103);
+}
+.bg-red {
+    background-color:rgb(228, 162, 140) ;
+}
+.bg-green {
+    background-color:rgb(125, 160, 125);
+} */
