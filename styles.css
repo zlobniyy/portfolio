@@ -62,11 +62,10 @@ body {
 }
 
 .data  {
+    display: flex;
     height: 70%;
-}
-
-.data > div {
-    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scroll_back, .scroll_fwd {
