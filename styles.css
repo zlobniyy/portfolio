@@ -19,8 +19,8 @@ a {
     /* width: 75%; */
     max-width: 1500px;
     margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: black;
 }
 
